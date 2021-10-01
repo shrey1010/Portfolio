@@ -258,8 +258,6 @@ p {
 #hero h1:nth-child(3) span {
 	animation-delay: 2.5s;
 }
-/* End Hero Section */
-/* Services Section */
 #services .services {
 	flex-direction: column;
 	text-align: center;
@@ -286,7 +284,6 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(./img/img-1.png);
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
@@ -342,7 +339,7 @@ p {
 	justify-content: center;
 	flex-direction: column;
 	width: 80%;
-	margin: 20px auto;
+	margin: 30px auto;
 	overflow: hidden;
 	border-radius: 10px;
 }
@@ -364,14 +361,14 @@ p {
 #projects .project-info h2 {
 	font-size: 1.8rem;
 	font-weight: 500;
-	margin-top: 10px;
+	margin-top: 0px;
 }
 #projects .project-info p {
 	color: white;
 }
 #projects .project-img {
 	flex-basis: 50%;
-	height: 300px;
+	height: 400px;
 	overflow: hidden;
 	position: relative;
 }
@@ -391,8 +388,6 @@ p {
 #projects .project-item:hover .project-img img {
 	transform: scale(1.1);
 }
-/* End Projects section */
-/* About Section */
 #about .about {
 	flex-direction: column-reverse;
 	text-align: center;
@@ -438,25 +433,23 @@ p {
 	border: 7px solid crimson;
 	z-index: -1;
 }
-/* End About Section */
-/* contact Section */
 #contact .contact {
 	flex-direction: column;
 	max-width: 1200px;
-	margin: 0 auto;
+	margin: 10px;
 	width: 90%;
 }
 #contact .contact-items {
 	max-width: 400px;
-	/* max-width: 400px; */
+	max-width: 400px; 
 	width: 100%;
 }
 #contact .contact-item {
 	width: 80%;
-	padding: 20px;
+	padding: 160px;
 	text-align: center;
-	border-radius: 10px;
-	padding: 30px;
+	border-radius: 20px;
+	padding: 40px;
 	margin: 30px;
 	display: flex;
 	justify-content: center;
@@ -469,22 +462,20 @@ p {
 	box-shadow: 0px 0px 5px 0 #0000002c;
 }
 #contact .icon {
-	width: 70px;
-	margin: 0 auto;
-	margin-bottom: 10px;
+	width: 90px;
+	margin: -20px;
+	margin-bottom: 0px;
 }
 #contact .contact-info h1 {
-	font-size: 2.5rem;
+	font-size: 2.0rem;
 	font-weight: 500;
-	margin-bottom: 5px;
+	margin-bottom: 1px;
 }
 #contact .contact-info h2 {
 	font-size: 1.3rem;
-	line-height: 2rem;
-	font-weight: 500;
+	line-height: 4rem;
+	font-weight: 00;
 }
-/*End contact Section */
-/* Footer */
 #footer {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
@@ -522,8 +513,7 @@ p {
 	color: white;
 	font-size: 1.3rem;
 }
-/* End Footer */
-/* Keyframes */
+
 @keyframes hamburger_puls {
 	0% {
 		opacity: 1;
@@ -555,8 +545,7 @@ p {
 		font-weight: 500;
 	}
 }
-/* End Keyframes */
-/* Media Query For Tablet */
+
 @media only screen and (min-width: 768px) {
 	.cta {
 		font-size: 2.5rem;
@@ -565,18 +554,16 @@ p {
 	h1.section-title {
 		font-size: 6rem;
 	}
-	/* Hero */
+	
 	#hero h1 {
 		font-size: 7rem;
 	}
-	/* End Hero */
-	/* Services Section */
+	
 	#services .service-bottom .service-item {
 		flex-basis: 45%;
 		margin: 2.5%;
 	}
-	/* End Services Section */
-	/* Project */
+	
 	#projects .project-item {
 		flex-direction: row;
 	}
@@ -595,8 +582,7 @@ p {
 	#projects .all-projects .project-img {
 		height: 100%;
 	}
-	/* End Project */
-	/* About */
+	
 	#about .about {
 		flex-direction: row;
 	}
@@ -619,8 +605,7 @@ p {
 	#about .col-right h1 {
 		text-align: left;
 	}
-	/* End About */
-	/* contact  */
+
 	#contact .contact {
 		flex-direction: column;
 		padding: 100px 0;
@@ -652,10 +637,9 @@ p {
 		text-align: left;
 		padding-left: 20px;
 	}
-	/* End contact  */
+	
 }
-/* End Media Query For Tablet */
-/* Media Query For Desktop */
+
 @media only screen and (min-width: 1200px) {
 	/* header */
 	#header .hamburger {
@@ -677,10 +661,9 @@ p {
 	#header .nav-list ul a:after {
 		display: none;
 	}
-	/* End header */
+	
 	#services .service-bottom .service-item {
 		flex-basis: 22%;
 		margin: 1.5%;
 	}
 }
-/* End  Media Query For Desktop */
