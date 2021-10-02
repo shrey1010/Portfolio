@@ -194,8 +194,7 @@ p {
 #header .hamburger.active .bar::after {
 	top: 0;
 }
-/* End Header section */
-/* Hero Section */
+
 #hero {
 	background-image: url(./img/hero-bg.png);
 	background-size: cover;
